@@ -1,0 +1,10 @@
+function lifeInWeeks(age) {
+    
+var years= 90-age;
+var days=years*365;
+var weeks=years*52;
+var month=years*12;
+
+console.log('you have',+days+"days,"+weeks+"weeks"+month+" left")
+}
+lifeInWeeks(56);
