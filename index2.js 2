@@ -1,0 +1,27 @@
+function getMilk(money){
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveRight");
+
+    console.log("buy"+calbottleofmilk(money,1.5)+"bottle of milk")
+
+    console.log("moveRigh");
+    console.log("moveRight");
+    console.log("moveRight")
+    console.log("moveRight");
+    return calchange(money,1.5)
+
+
+}
+
+function calbottleofmilk(startplice,costper){
+    var bottleofmilk=Math.floor(startplice/costper)
+    return bottleofmilk
+}
+
+function calchange(startplice,costper){
+    var change = startplice%costper
+    return change
+}
+console.log("here is your change"+getMilk(5)+"change")
